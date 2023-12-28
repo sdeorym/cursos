@@ -1,0 +1,93 @@
+/*** Design System ***/
+:root {
+    /*Colors*/
+    --red-highlight:#D2483D;
+    --light-grey:#F3F3F3;
+    --white:#FFFFFF;
+    --black:#000000;
+
+    /*Text configuration*/
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.heading {
+    font-family: Bebas Neue;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 86px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#000;
+}
+
+.title {
+    font-family: Bebas Neue;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#000;
+}
+
+.subtitle {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#000;
+}
+
+.usual {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#000;
+}
+
+.highlight {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#000;
+}
+
+@media (min-width:350px) and (max-width:800px){
+
+    .heading {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .title {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .usual {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .highlight {
+        font-size: 16px;
+        line-height: 19.5px;
+    }
+
+}
+
+
