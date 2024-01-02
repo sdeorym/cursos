@@ -996,9 +996,7 @@ r
         gap:10px;
         grid-gap:15px;
         align-content:center;
-        justify-content: flex-start;
-        /*margin-top:600px;*/
-        
+        justify-content: flex-start;        
     }
 
     .lodge-title {
