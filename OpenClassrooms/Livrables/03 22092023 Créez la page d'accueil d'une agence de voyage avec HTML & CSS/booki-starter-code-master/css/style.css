@@ -196,6 +196,7 @@ header, nav {
     height: 281px;    
     gap: 35px;
     box-sizing:border-box;
+    width:100%;
 }
 
 .headline { 
@@ -281,7 +282,7 @@ header, nav {
 
 .filter-bar {
     height:50px;
-    width:758px;
+    width:100%;
     justify-content: left;
     display: flex;
     flex-direction: row;
@@ -297,6 +298,7 @@ header, nav {
 .filter_rows {
     display: flex;
     flex-direction: row;
+    justify-content:flex-start;
     gap:15px;
 }
 
@@ -423,6 +425,7 @@ header, nav {
     box-sizing: border-box;
     gap:40px;
     height:614px;
+    margin-top:35px;
 }
 
 .lodgings-and-popular section {
@@ -592,6 +595,7 @@ header, nav {
     padding: 30px;
     gap: 30px;
     margin-top:35px;
+    
 }
 
 .activity-title {
@@ -734,20 +738,9 @@ footer {
         Line-height: 18.78px;
     }
 
-    .econo {
-        width:167px;
-    }
-    
-    .family {
-        width:131px;
-    }
-    
-    .romantic {
-        width:164px;
-    }
-    
-    .gems { 
-        width:161px;
+    .econo, .family, .romantic, .gems { 
+        padding:4px 7px 0px 0px;
+        width:50%;
     }
 
     /*** Information bar ***/
@@ -831,11 +824,6 @@ r
         line-height: 16.44px;
     }
 
-    .econo, .family, .romantic, .gems { 
-        padding:4px 7px 0px 0px;
-        width:160px;
-    }
-
     header, nav {
         top:0px;
     }
@@ -883,8 +871,7 @@ r
 
     .infogroup { 
         height: 432px;
-        padding: 0px 20px 0px 20px;
-        margin-top:60px;
+        padding: 60px 20px 60px 20px;
     }
     
     /* Headline*/
@@ -921,19 +908,18 @@ r
     .filter-bar {
         height:161px;
         flex-direction:column;
-        gap:10px;
-        padding-bottom:20px;
     }
     
     .filter_rows {
         flex-direction:column;
         gap:10px;
+        width:100%;
     }
     
     .filter-row {
         flex-direction:row;
         gap:10px;
-        width:335px;
+        width:100%;
     }
 
     .eco, .fam, .rom, .gem {
@@ -951,6 +937,7 @@ r
         flex-direction: column-reverse;
         height: 2200px;
         gap:15px;
+        margin-top:50px;
     }
 
     .lodgings-and-popular section {
